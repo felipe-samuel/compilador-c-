@@ -1,0 +1,18 @@
+int multi(int x)
+{
+  return x;
+}
+
+void main(void)
+{
+  int x;
+  int y;
+
+  x = input();
+
+  y = multi(x);
+
+  output(y);
+
+  return;
+}

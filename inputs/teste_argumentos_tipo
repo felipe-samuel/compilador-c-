@@ -1,0 +1,27 @@
+int teste(int a, int b[]){}
+
+
+void main()
+{
+  int a,b;
+  int vet[10];
+
+  vet[7] = a + b;
+
+  teste(a,vet);
+  teste(a,b,vet);
+  teste(a,b);
+  teste(vet,vet);
+  teste(vet,b);
+
+
+  teste(a+b,vet);
+  teste(a+b,a+b);
+  teste(teste(a+b,vet),vet);
+
+  vet = a + b;
+
+  a = vet + b;
+
+  teste(vet + b , vet);
+}

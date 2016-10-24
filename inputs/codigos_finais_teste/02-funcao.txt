@@ -1,0 +1,22 @@
+int multi(int x)
+{
+  int z;
+  z = x + 3;
+  return z;
+}
+
+void main(void)
+{
+  int x;
+
+  int z;
+
+  x = input();
+
+
+  z = multi(x);
+
+  output(z);
+
+  return;
+}

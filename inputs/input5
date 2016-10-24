@@ -1,0 +1,19 @@
+void f(int t, int y[]){}
+
+int a[4];
+
+void main()
+{
+  float i;
+  int u;
+  int b;
+  b = f(u,a);
+
+
+  u = i;
+
+  f(u);
+  f(u,a);
+  f(a,a);
+  f(u,u);
+}

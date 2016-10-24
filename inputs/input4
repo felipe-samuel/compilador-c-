@@ -1,0 +1,39 @@
+void t()
+{
+
+}
+
+void teste( int arg1 , float arg2 )
+{
+
+}
+
+void main( )
+{
+  int a,b,s,d;
+  int vt[6];
+
+  vt = vt;
+
+  vt = vt = 1;
+
+  a = vt;
+
+  vt[1]=2;
+
+  vt[1] = 2 + 6 + vt;
+
+  teste( vt  );
+
+  a+b;
+
+  a =  1 + teste(1 , d);
+
+  teste(teste(1,2),1);
+
+  if(a+b==1)
+  {
+
+  }
+
+}

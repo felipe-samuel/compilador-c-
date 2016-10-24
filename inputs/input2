@@ -1,0 +1,19 @@
+float area;
+
+float CalculaArea(float a, float b)
+{
+	area = a * b;
+	return area;
+}
+
+int main( )
+{
+	float a, b;
+	a = input( );
+	b = input( );
+	area = CalculaArea(a, b);
+	if (area > 10)
+	    return 1;
+	else
+	    return 0;
+}

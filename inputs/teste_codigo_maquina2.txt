@@ -1,0 +1,15 @@
+void main(void)
+{
+  int x;
+  int y;
+  while(1)
+  {
+    x = input();
+    y = input();
+
+    x = x * y;
+
+    output(x);
+  }
+  return;
+}

@@ -1,0 +1,22 @@
+int multi(int x, int y, int z)
+{
+  int r;
+  r = x * y + z;
+  return r;
+}
+
+void main(void)
+{
+  int x;
+  int y;
+  int z;
+
+  x = input();
+  y = input();
+
+  z = multi(x,y,5);
+
+  output(z);
+
+  return;
+}

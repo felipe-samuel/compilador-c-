@@ -1,0 +1,14 @@
+void main(void)
+{
+  int x;
+  int y;
+
+  x = input();
+  y = input();
+
+  x = x * y;
+
+  output(x);
+  
+  return;
+}

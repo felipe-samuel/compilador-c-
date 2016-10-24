@@ -1,0 +1,44 @@
+void aa()
+{
+
+}
+
+void bb()
+{
+  return;
+}
+
+int cc()
+{
+  return 1;
+}
+
+void dd()
+{
+  int d;
+  return d;
+}
+
+void ddd()
+{
+  int d;
+  return d;
+}
+
+int ee()
+{
+  int g[6];
+  return g;
+}
+
+int ff()
+{
+  return;
+}
+
+int gg()
+{
+
+}
+
+void main(){}

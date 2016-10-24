@@ -1,0 +1,26 @@
+void teste( int a ){}
+
+
+void main()
+{
+
+  int a,b,c,d,vet[7];
+
+
+  a = b + c * (d+a);
+
+  teste(b + c * (d+a));
+
+  teste(teste(a));
+
+  teste(vet + a);
+
+  vet + a;
+
+  vet  = a;
+
+  a = vet + a +b;
+
+  if(vet == 1){}
+
+}

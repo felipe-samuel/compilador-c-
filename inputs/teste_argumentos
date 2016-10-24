@@ -1,0 +1,12 @@
+int teste(int a, int b[]){}
+
+
+void main()
+{
+  int a,b;
+  int vetor[10];
+  teste();
+  teste(a);
+  teste(a,b);
+  teste(vetor,vetor[3], a+b, teste(a,b));
+}

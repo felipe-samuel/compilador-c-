@@ -1,0 +1,34 @@
+int gdc (int u, int v)
+{
+    /* teste de selecao, expressoes, return e chamada de funcao */
+    if (v == 0) return u;
+    else return gdc(v,u-u/v*v);
+}
+
+/* teste de funcao sem parametros e sem corpo */
+int input(void)
+{
+}
+
+/* teste de funcao com parametro e sem corpo */
+void output(int x)
+{
+}
+
+/* teste de funcao sem par�metro e com corpo completo */
+void main(void)
+{
+
+   /* teste de diferentes tipos de variaveis, incluindo vetor */
+   int x;
+   int y;
+
+   /* erro lexico */
+   x = &y;
+
+   /* chamadas de funcoes */
+   x = input();
+   y = input();
+   output(gdc(x,y));
+
+}

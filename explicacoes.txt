@@ -1,0 +1,17 @@
+Nome: Samuel Felipe dos Santos	R.A.: 86948
+
+Diretorios: 
+
+src - contem os códigos fonte, e o arquivo makefile para sua compilação
+inputs - contem os arquivos testados como entrada
+outputs - diretorio que contem são criados os executaveis pelo makefile
+
+
+executaveis feitos:
+
+lexer - realiza a analise lexica e cria a tabela de simbolos
+parser - realiza a analise sintatica e apresenta a arvore sintatica
+compiler - analise semantica, também apresenta os erros detectados em todas as etapas anteriormente citadas 
+
+
+para a compilação do código e criação dos executaveis, basta executar o comando  make no diretorio src

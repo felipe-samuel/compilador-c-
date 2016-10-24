@@ -1,0 +1,30 @@
+int teste(int a)
+{
+  if(a)
+  {
+    a = 2;
+  }
+}
+
+void main()
+{
+
+  int a,b,c,d;
+  int e[7];
+
+  a = teste(a);
+
+
+  a=a+b;
+  return a;
+  return 1;
+  return 1+2;
+  return 1+a;
+  return e[1];
+
+  e[4]=b;
+  b=e[4];
+
+  teste(a);
+
+}

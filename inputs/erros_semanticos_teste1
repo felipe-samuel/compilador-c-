@@ -1,0 +1,10 @@
+int teste(int arg1, int arg2[])
+{
+  return;
+}
+
+void main()
+{
+  int a,b[3];
+  teste(b[1],b - a);
+}

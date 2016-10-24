@@ -1,0 +1,26 @@
+void h;
+
+int g;
+int i;
+
+int i(){}
+int c(){}
+
+int c;
+int i;
+
+void main()
+{
+  void a;
+
+  int b;
+  int b;
+  int g;
+  int c;
+
+  teste2();
+
+  b = j +p ;
+
+
+}

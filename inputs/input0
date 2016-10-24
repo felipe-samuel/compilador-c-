@@ -1,0 +1,25 @@
+void main( int a, float b)
+{
+
+
+  %%%
+
+  a =  teste( );
+  void hhhhh;
+  int f;
+  int f;
+
+  a+2>b*Y;
+  a=b+2/5
+  a=c=d=2;
+
+  if(a==2)
+  {
+    f=a+4;
+    return f;
+  }
+  else
+    return;
+
+  return 5.6;
+}

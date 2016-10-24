@@ -1,0 +1,32 @@
+int x,y,z,u[6];
+
+int teste( int x){}
+
+int teste2( int x, int i){}
+
+
+void varfun(){}
+
+
+int varfun;
+
+void name( )
+{
+  int mesmoescopo;
+  int mesmoescopo;
+  void variavelvoid;
+
+ int varfun, vet[8];
+
+
+  chamadadefuncaonaodeclarada(varfun, vet, vet[7], varfun + 4 );
+
+
+  x = y + z + teste(z);
+
+  teste(y);
+
+  z = u[2] +y + variavelnaodeclarada;
+
+  u[4] = 0;
+}

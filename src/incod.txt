@@ -1,0 +1,34 @@
+Análise sintatica iniciada
+
+Analise completa sem erros
+0	label	gcd	
+1	==	v	0
+2	selecao	(1)	(6)
+3	var	u	
+4	retorno	(3)	
+5	salto	(14)	
+6	var	v	
+7	/	u	v
+8	*	(7)	v
+9	-	u	(8)
+10	argumentos	(6)	
+11	argumentos	(9)	
+12	ativacao	gcd	2
+13	retorno	(12)	
+14	label	main	
+15	ativacao	input	0
+16	atribuicao	x	(15)
+17	ativacao	input	0
+18	atribuicao	y	(17)
+19	var	x	
+20	var	y	
+21	argumentos	(19)	
+22	argumentos	(20)	
+23	ativacao	gcd	2
+24	argumentos	(23)	
+25	ativacao	output	1
+26	+	1	1
+27	+	x	y
+28	atribuicao	v[27]	(26)
+29	INT_NUM	1	
+30	retorno	(29)	
